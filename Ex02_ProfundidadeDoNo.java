@@ -38,7 +38,7 @@ public class Ex02_ProfundidadeDoNo {
             raiz.left = new Node("filho");
             raiz.left.left = new Node("primo");
             raiz.left.left= new Node("segundo grau de primo");
-            raiz.left.left.left = new Node("Nem é mais familia");
+            raiz.left.left.left = new Node("Nem e mais familia");
             
             raiz.rigth = new Node("tia");
             raiz.rigth.rigth= new Node("tia avo");
@@ -51,11 +51,11 @@ public class Ex02_ProfundidadeDoNo {
             int teste = profundidade(raiz, alvo, 0);
     
             if (teste != -1) {
-                System.out.println("A profundidade do nó '" + alvo + "' é  " + teste);
+                System.out.println("A profundidade do no '" + alvo + "' e  " + teste);
             } else {
-                System.out.println("Nó '" + alvo + "' não encontrado.");
+                System.out.println("No '" + alvo + "' nao encontrado.");
             }
     
-            System.out.println("A altura da árvore é: " + altura(raiz));
+            System.out.println("A altura da arvore e: " + altura(raiz));
         }
     }
