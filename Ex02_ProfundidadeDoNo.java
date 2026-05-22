@@ -41,13 +41,13 @@ public class Ex02_ProfundidadeDoNo {
             raiz.left.left.left = new Node("Nem é mais familia");
             
             raiz.rigth = new Node("tia");
-            raiz.rigth.rigth= new Node("tia avó");
-            raiz.rigth.rigth.rigth= new Node("tia bisavó");
-            raiz.rigth.rigth.rigth.rigth= new Node("tia tataravó");
+            raiz.rigth.rigth= new Node("tia avo");
+            raiz.rigth.rigth.rigth= new Node("tia bisavo");
+            raiz.rigth.rigth.rigth.rigth= new Node("tia tataravo");
             
             raiz.rigth.left = new Node("tudo primo");
     
-            String alvo = "tia tataravó";
+            String alvo = "tia tataravo";
             int teste = profundidade(raiz, alvo, 0);
     
             if (teste != -1) {
