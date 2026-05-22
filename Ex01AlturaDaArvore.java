@@ -29,7 +29,7 @@ public static void main(String[] args) {
     raiz.left.left.left = new Node("Nem e mais familia");
     raiz.left.left.left.left = new Node("esquece");
   
-    System.out.println(" Altura é = " + altura(raiz));
+    System.out.println(" Altura e = " + altura(raiz));
     
 }
 }
