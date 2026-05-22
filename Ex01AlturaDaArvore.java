@@ -26,7 +26,7 @@ public static void main(String[] args) {
     raiz.left = new Node("filho");
     raiz.left.left = new Node("primo");
     raiz.left.left= new Node("segundo grau de primo");
-    raiz.left.left.left = new Node("Nem é mais familia");
+    raiz.left.left.left = new Node("Nem e mais familia");
     raiz.left.left.left.left = new Node("esquece");
   
     System.out.println(" Altura é = " + altura(raiz));
